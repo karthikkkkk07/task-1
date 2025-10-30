@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+  }
+  
+  .two-color-box {
+    position: relative;      
+    width: 400px;
+    height: 600px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .top {
+    flex: 1;
+    background-color: black;
+  }
+  
+  .bottom {
+    flex: 1;
+    background-color: red;
+  }
+  
+ 
+  .center-image {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;           
+    height: 150px;
+    border-radius: 50%;     
+    object-fit: cover;      
+    border: 5px solid white; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+  }
+  
